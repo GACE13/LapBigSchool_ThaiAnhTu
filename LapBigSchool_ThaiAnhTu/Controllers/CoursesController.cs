@@ -28,6 +28,7 @@ namespace LapBigSchool_ThaiAnhTu.Controllers
         }
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModels viewModel)
         {
             if (!ModelState.IsValid)

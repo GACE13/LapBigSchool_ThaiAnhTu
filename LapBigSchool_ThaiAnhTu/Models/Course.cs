@@ -11,7 +11,7 @@ namespace LapBigSchool_ThaiAnhTu.Models
     {
         public int Id { get; set; }
 
-        public ApplicationUser Lectuerer { get; set; }
+        public ApplicationUser Lecturer { get; set; }
         [Required]
         public string LecturerId { get; set; }
         [Required]

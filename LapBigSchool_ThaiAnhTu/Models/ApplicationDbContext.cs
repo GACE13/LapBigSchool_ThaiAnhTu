@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
 namespace LapBigSchool_ThaiAnhTu.Models
